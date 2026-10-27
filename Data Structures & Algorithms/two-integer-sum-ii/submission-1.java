@@ -1,4 +1,5 @@
 class Solution {
+	//This is O(n), so better than the other one. Which is O(n) * (n log n)
     public int[] twoSum(int[] numbers, int target) {
 			int left = 0;
 			int right = numbers.length-1;
